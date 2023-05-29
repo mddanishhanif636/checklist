@@ -106,174 +106,202 @@
                 <tr>
                   <th scope="col">Strategy</th>
                   <th scope="col">Ticker</th>
-                  <th scope="col">Industry Ranking</th>
-                  <th scope="col">Exposure</th>
-                  <th scope="col">Sector</th>
-                  <th scope="col">Industry</th>
                   <th scope="col">Current Price</th>
-                  <th scope="col">Market Cap</th>
-                  <th scope="col">FCFF Valuation</th>
-                  <th scope="col">Portfolio Weightage</th>
                   <th scope="col">Cost Basis</th>
-                  <th scope="col">P/L</th>
-                  <th scope="col">% P/L</th>
+                  <th scope="col">Trade Cost</th>
+                  <th scope="col">Realized P/L</th>
+                  <th scope="col">Unrealized P/L</th>
+                  <th scope="col">Net P/L</th>
+                  <th scope="col">FCFF Valuation</th>
+                  <th scope="col">ERM Valuation</th>
+                  <th scope="col">Relative Valuation</th>
+                  <th scope="col">FCFF + Relative</th>
+                  <th scope="col">ERM + Relative</th>
+                  <th scope="col">Sector-Industry</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
                   <td style="color: blue"><a href="">AAPL</a></td>
-                  <td>#1</td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>165</td>
-                  <td>2.25T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">TSLA</a></td>
-                  <td>#1</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Auto Manufacturer</td>
-                  <td>125</td>
-                  <td>600B</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">MSFT</a></td>
-                  <td>#1</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>120</td>
-                  <td>1.85T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">AMZN</a></td>
-                  <td>#2</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>120</td>
-                  <td>1.85T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">IBM</a></td>
-                  <td>#2</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>120</td>
-                  <td>1.85T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">SNOW</a></td>
-                  <td>#2</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>120</td>
-                  <td>1.85T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">META</a></td>
-                  <td>#3</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>120</td>
-                  <td>1.85T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">TWTR</a></td>
-                  <td>#3</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>120</td>
-                  <td>1.85T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">BKNG</a></td>
-                  <td>#3</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>120</td>
-                  <td>1.85T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
                 </tr>
                 <tr>
-                  <th scope="row"><a href="strategy.html"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
-                  <td style="color: blue"><a href="">GOOG</a></td>
-                  <td>#4</td>
+                  <th scope="row"><a href="{{ url_for('strategy') }}"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></th>
+                  <td style="color: blue"><a href="">AAPL</a></td>
+                  <td>105.10</td>
+                  <td>95.6</td>
                   <td>$8000</td>
-                  <td>Technology</td>
-                  <td>Consumer Finance</td>
-                  <td>120</td>
-                  <td>1.85T</td>
-                  <td>210%</td>
-                  <td>170% <strong>(#5)</strong></td>
-                  <td>150% <strong>(#7)</strong></td>
-                  <td>180% <strong>(#1)</strong></td>
-                  <td>160% <strong>(#3)</strong></td>
+                  <td>$1500</td>
+                  <td>$3000</td>
+                  <td>$4500(+5.2%)</td>
+                  <td>170%</td>
+                  <td>170%</td>
+                  <td>150%</td>
+                  <td>180%</td>
+                  <td>160%</td>
+                  <td>Financial-Banks</td>
+                </tr>
+                <tr>
+                  <td scope="row"><strong>Total</strong></td>
+                  <td style="color: blue"></td>
+                  <td></td>
+                  <td></td>
+                  <td><strong>$80000</strong></td>
+                  <td><strong>$30000</strong></td>
+                  <td><strong>$22000</strong></td>
+                  <td><strong>$52000(+5.2%)</strong></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
               </tbody>
             </table><br>
         </div>
     </section>
+  
+    <div class="b-example-divider"></div>
 
     <section id="footer">
             <div class="container">
